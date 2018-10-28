@@ -1,0 +1,27 @@
+{
+  "name": "codejam-3_corejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha",
+    "eslint": "./node_modules/.bin/eslint src/**",
+    "eslint-fix": "./node_modules/.bin/eslint src/** --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leshich/rsschool-codejam.git"
+  },
+  "author": "Aliaksei Kokhanau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leshich/rsschool-codejam/issues"
+  },
+  "homepage": "https://github.com/leshich/rsschool-codejam#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  }
+}
